@@ -30,8 +30,8 @@ export default function Home() {
             GET IN TOUCH
           </button>
         </div>
-        <div className="flex flex-row items-center justify-center gap-10">
-          <div className="flex flex-col m-10 items-center justify-center">
+        <div className="flex flex-row items-center justify-center gap-10 mt-20">
+          <div className="flex flex-col items-center justify-center">
             <div className="relative text-center py-8">
               <h1 className="text-8xl uppercase font-light">about</h1>
               <div className="absolute inset-x-0 top-1/2 transform -translate-y-1/2">
@@ -53,7 +53,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-20">
           <div className="relative text-center py-8 mt-28">
             <h1 className="text-8xl uppercase font-light">portfolio</h1>
             <div className="absolute inset-x-0 top-1/2 transform -translate-y-1/2">
@@ -64,9 +64,37 @@ export default function Home() {
           </div>
           <FullscreenCarousel />
 
-          <button className="mt-4 py-3 px-6 bold text-lg tracking-widest	font-extralight max-w-fit uppercase bg-[#181818]">
-            about me
+          <button className="mt-10 py-3 px-6 bold text-lg tracking-widest	font-extralight max-w-fit uppercase bg-[#181818]">
+            view all portfolio
           </button>
+        </div>
+        <div className="padding mt-20">
+          <div className="justify-start">
+            <Image
+              src="/quote.png"
+              width={100}
+              height={100}
+              alt="Picture of the author"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="text-8xl uppercase font-light">quote of the day</h1>
+            <p>______________</p>
+            <p className="text-center mt-4">
+              “Success is not final; failure is not fatal: it is the
+              <br /> courage to continue that counts.”
+            </p>
+            <p className="text-center mt-4 text-neutral-400">-Winston Churchill</p>
+          </div>
+          <div className="rotate-180">
+            <Image
+              src="/quote.png"
+              width={100}
+              height={100}
+              alt="Picture of the author"
+              className=""
+            />
+          </div>
         </div>
       </div>
       <Footer />

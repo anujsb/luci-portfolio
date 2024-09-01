@@ -10,7 +10,7 @@ const carouselItems = [
     title: "blender",
     description:
       " I have Created many models in blender , this include Character modeling, Exterior design, interior design, props, etc",
-    link: "/",
+    link: "/blender",
     image: "/blender.png",
   },
   {
@@ -59,7 +59,7 @@ const FullscreenCarousel = () => {
   }, []);
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden rounded-2xl mt-10">
+    <div className="relative w-screen h-screen overflow-hidden rounded-3xl mt-10">
       {carouselItems.map((item, index) => (
         <Link key={item.id} href={item.link} passHref>
           <div
