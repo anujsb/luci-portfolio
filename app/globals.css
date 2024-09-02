@@ -43,6 +43,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
+.bg-test {
+  background-image: url("/testbg.png");
+  /* background-size:cover; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
 
 .padding{
   padding-left: 60px;

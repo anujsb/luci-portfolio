@@ -84,7 +84,9 @@ export default function Home() {
               “Success is not final; failure is not fatal: it is the
               <br /> courage to continue that counts.”
             </p>
-            <p className="text-center mt-4 text-neutral-400">-Winston Churchill</p>
+            <p className="text-center mt-4 text-neutral-400">
+              -Winston Churchill
+            </p>
           </div>
           <div className="rotate-180">
             <Image
@@ -94,6 +96,31 @@ export default function Home() {
               alt="Picture of the author"
               className=""
             />
+          </div>
+        </div>
+        <div className="padding mt-20 bg-test py-10">
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="text-8xl uppercase font-light">testimonials</h1>
+            <p>______________</p>
+            <p className="text-center mt-4">
+              “Lorem ipsum dolor sit amet, elit consectetur adipiscing.
+              <br /> Odio tincidunt et, massa, turpis nec dolor posuere tempus.
+              <br /> Nulla congue et dolor sit amet, elit consectetur
+              adipiscing.”
+            </p>
+            <div className="mt-4">
+              <Image
+                src="/testimonial.png"
+                width={50}
+                height={50}
+                alt="Picture of the author"
+                className="rounded-full "
+              />
+            </div>
+            <p className="text-center mt-4 text-neutral-400">
+              Lucas wolfer <br />
+              -ceo - raisins{" "}
+            </p>
           </div>
         </div>
       </div>
